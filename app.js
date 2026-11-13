@@ -9,11 +9,11 @@ const port = 3000;
 
 // TODO: Update PostgreSQL connection credentials before running the server
 const pool = new Pool({
-  user: 'test',
-  host: 'localhost',
-  database: 'ecommerce',
-  password: 'test',
-  port: 5432,
+  user: '',
+  host: '',
+  database: '',
+  password: '',
+  port: ,
 });
 
 app.use(bodyParser.urlencoded({ extended: true }));
