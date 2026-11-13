@@ -30,36 +30,11 @@ A full-stack e-commerce web application developed as part of **Seasons of Code, 
 
 ## Installation and Setup
 
-### 1. Clone the Repository
-
-```bash
-git clone <your-repository-url>
-cd <repository-folder>
-```
-
-### 2. Install Dependencies
-
-```bash
-npm install
-```
-
-### 3. Configure Environment Variables
-
-Create a `.env` file in the root directory:
-
-```env
-DB_HOST=localhost
-DB_USER=your_database_user
-DB_PASSWORD=your_database_password
-DB_NAME=your_database_name
-SESSION_SECRET=your_secret_key
-```
-
-### 4. Set Up PostgreSQL
+### 1. Set Up PostgreSQL
 
 Create the required database and configure the database schema before running the application.
 
-### 5. Start the Application
+### 2. Start the Application
 
 ```bash
 node app.js
